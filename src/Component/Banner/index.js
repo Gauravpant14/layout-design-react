@@ -1,4 +1,3 @@
-import laptopImg from "../../Images/laptop1.jpg";
 
 function Banner() {
   return (
@@ -21,7 +20,7 @@ function Banner() {
             ></img>
           </div>
           <div class="cardInfo">
-            <h5> Low RANGE</h5>
+            <h4> Low Range</h4>
             <p>Buy Laptop in Your Budget</p>
           </div>
         </div>
@@ -31,7 +30,7 @@ function Banner() {
             <img src={require('../../Images/laptop2.jpg').default} alt="" srcset=""></img>
           </div>
           <div class="cardInfo">
-            <h5> Mid Range</h5>
+            <h4> Mid Range</h4>
             <p>Buy Laptop in Your Budget</p>
           </div>
         </div>
@@ -41,7 +40,7 @@ function Banner() {
           <img src={require('../../Images/laptop3.jpg').default} alt="" srcset=""></img>
           </div>
           <div class="cardInfo">
-            <h5> High Range</h5>
+            <h4> High Range</h4>
             <p>Buy Laptop in Your Budget</p>
           </div>
         </div>
